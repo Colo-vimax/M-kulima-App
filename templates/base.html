@@ -1,0 +1,49 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style/style.css'%}">
+    <title>m-kulima App</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="your-logo.png" alt="Logo">
+        </div>
+        <div class="nav-buttons">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-button">Login</a>
+        </div>
+    </div>
+
+    {% block content %} {% endblock  %}
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>About Us</h2>
+                <p>Your company description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <p>Email: info@example.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+
+            <div class="footer-section social">
+                <h2>Follow Us</h2>
+                <a href="#" target="_blank"><img src="icon-facebook.png" alt="Facebook"></a>
+                <a href="#" target="_blank"><img src="icon-twitter.png" alt="Twitter"></a>
+                <a href="#" target="_blank"><img src="icon-instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2023 Your Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

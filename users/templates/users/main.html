@@ -1,0 +1,83 @@
+{%extends "base.html"%}{%load static%}{%block content%}
+
+<div class="main">
+    <div class="main-left">
+        <img src="{% static 'images/farming.jpg' %}" alt="" class="left-image">
+    </div>
+    <div class="main-right">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolorum.
+        </p>
+        <a href="#" >Get Started</a>
+    </div>    
+</div>
+<div class="second-section">
+    <div class="headings">
+        <h5 class="small-heading">Lorem ipsum dolor sit amet.</h5>
+        <h3 class="big-heading">Lorem, ipsum dolor sit amet consectetur adipisicing.</h3>
+    </div>
+    <div class="cards">
+        <div class="card">
+            <img src="{%static 'images/cow.jpg'%}" alt="Card Image" class="card-img">
+            <div class="card-text">
+                <h2>Title 1</h2>
+                <p>Description of the card goes here. You can add more details or information.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="{%static 'images/hen.jpg'%}" alt="Card Image" class="card-img">
+            <div class="card-text">
+                <h2>Title 2</h2>
+                <p>Description of the card goes here. You can add more details or information.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="{%static 'images/veg2.jpg'%}" alt="Card Image" class="card-img">
+            <div class="card-text">
+                <h2>Title 3</h2>
+                <p>Description of the card goes here. You can add more details or information.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="third-section">
+    <div class="item-one">
+        <h4>Lorem, ipsum.</h4>
+        <h1 class="one-heading">365</h1>
+        <p>Days</p>
+
+    </div>
+    <div class="item-two">
+        <img src="{%static 'images/veg2.jpg'%}" class="item-two-image">
+    </div>
+</div>
+<div class="fourth-section">
+    <div class="cards">
+        <div class="card">
+            <img src="{%static 'images/cow.jpg'%}" alt="Card Image" class="card-img">
+            <div class="card-text">
+                <h2>Title 1</h2>
+                <p>Description of the card goes here. You can add more details or information.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="{%static 'images/hen.jpg'%}" alt="Card Image" class="card-img">
+            <div class="card-text">
+                <h2>Title 2</h2>
+                <p>Description of the card goes here. You can add more details or information.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="{%static 'images/veg2.jpg'%}" alt="Card Image" class="card-img">
+            <div class="card-text">
+                <h2>Title 3</h2>
+                <p>Description of the card goes here. You can add more details or information.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+{%endblock%}
